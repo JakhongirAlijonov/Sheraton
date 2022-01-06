@@ -1,0 +1,58 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    margin: 0 108px;
+    font-family: Fenix;
+    color: #E0B973;
+}
+
+.site-logo-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 35px 40px;
+    background: #14274A;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 130px;
+}
+
+.site-logo-link h4 {
+    margin: 0;
+    color: #E0B973;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.15em;
+}
+
+.site-logo-link p {
+    color: #E0B973;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.6em;
+}
+
+.site-nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 108px;
+}
+
+.site-nav-item {
+    list-style-type: none;
+    margin-left: 88px;
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.site-nav-item:first-child {
+    margin-left: 0;
+}
