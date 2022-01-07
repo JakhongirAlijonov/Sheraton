@@ -1,4 +1,9 @@
-.site-header {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +52,7 @@
 .site-nav-item {
     list-style-type: none;
     margin-left: 88px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 30px;
     color: #fff;
@@ -55,4 +60,77 @@
 
 .site-nav-item:first-child {
     margin-left: 0;
+}
+
+.header-text {
+    position: absolute;
+    left: 108px;
+    top: 150px;
+}
+
+.header-title-text {
+    margin-top: 50px;
+}
+
+.header-title-text h3 {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 61px;
+}
+
+.main-title {
+    font-family: Fenix, sans-serif;
+    font-weight: 400;
+    font-size: 130px;
+    color: #E0B973;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title p {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.header-des {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    width: 580px;
+}
+
+.book-now-section {
+    text-align: center;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-link {
+    display: inline-block;
+    color: #E0B973;
+    padding: 24px 50px;
+    background-color: #14274A;
+    text-decoration: none;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 1px;
+}
+
+.book-now-section img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
