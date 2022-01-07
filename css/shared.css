@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 2300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .site-header-section {
@@ -47,6 +76,16 @@ body {
     display: flex;
     align-items: center;
     margin-right: 108px;
+}
+
+.site-nav-link {
+    text-decoration: none;
+    color: #fff;
+    transition: 300ms ease;
+}
+
+.site-nav-link:hover {
+    color: #E0B973;
 }
 
 .site-nav-item {
@@ -133,4 +172,78 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+.site-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 70px;
+    background: #14274A;
+}
+
+.logo {
+    color: #fff;
+}
+
+.footeer-nav-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav-item {
+    list-style-type: none;
+}
+
+.footer-nav-link {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.socials-list {
+    margin: 0;
+    padding: 0;
+}
+
+.socials-item {
+    list-style-type: none;
+}
+
+.footer-nav-link:hover {
+    text-decoration: underline;
+}
+
+.socials-link {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.socials-link:hover {
+    text-decoration: underline;
+}
+
+.sub-title {
+    color: #F7F7F7;
+}
+
+.subscribe input {
+    border: 2px solid #E0B973;
+    background: #14274A;
+    height: 50px;
+    padding-left: 25px;
+    margin-right: 0;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.ok {
+    background: #E0B973;
+    margin-left: -5px;
+    border: none;
+    height: 50px;
+    width: 80px;
 }
