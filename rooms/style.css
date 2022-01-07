@@ -1,0 +1,96 @@
+.site-header {
+    background: url('../images/landing-3.png'), rgba(20, 39, 74, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1080px;
+}
+
+.main-section {}
+
+.rooms {
+    padding-bottom: 130px;
+    padding-top: 80px;
+}
+
+.rooms-titles {
+    font-family: Fenix, serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #14274A;
+}
+
+.rooms-des {
+    font-family: Montserrat, serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #14274A;
+    margin-top: 29px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.rooms-list {
+    margin: 0;
+    padding: 0;
+}
+
+.rooms-item {
+    list-style-type: none;
+    margin-bottom: 80px;
+    position: relative;
+    border: 2px solid #14274A;
+    border-radius: 4px;
+}
+
+.rooms-item:last-child {
+    margin-bottom: 0;
+}
+
+.rooms-item img {
+    width: 1047px;
+    display: flex;
+}
+
+.room-title {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #fff;
+    background-color: #14274A;
+    font-weight: 700;
+    line-height: 73px;
+    /* position: absolute; */
+    margin: 0;
+}
+
+.detailes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail {
+    text-decoration: none;
+    color: #14274A;
+}
+
+.fa-plus {
+    margin-right: 50px;
+    padding: 18px;
+    height: 51px;
+    width: 51px;
+    background-color: #E0B973;
+    border-radius: 50%;
+}
+
+.cost {
+    padding: 18px 40px;
+    border-radius: 6px;
+    background-color: #E0B973;
+    color: #fff;
+}
